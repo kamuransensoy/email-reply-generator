@@ -1,11 +1,11 @@
-# 📬 AI-Powered Email Assistant – Gmail Extension
+# AI-Powered Email Assistant – Gmail Extension
 
 This is a full-stack AI-powered email assistant built as a **Chrome Extension** to generate intelligent email replies and summarize Gmail threads using natural language processing.  
 It was developed as a learning project to explore **Spring Boot** and gain real-world **full-stack development experience**.
 
 ---
 
-## 🌟 Project Purpose
+## Project Purpose
 
 The primary goal of this project was to:
 - Learn how **Spring Boot** works for building scalable and RESTful backend services.
@@ -15,34 +15,34 @@ The primary goal of this project was to:
 
 ---
 
-## ✨ Features
+## Features
 
-✅ **Gmail Integration** via Chrome Extension  
-✅ **AI Reply Generation** with different tones (Professional, Friendly, Polite, etc.)  
-✅ **Thread Summarization** – summarizes long Gmail threads in one click  
-✅ **Tone Selector** – easily change the tone of your AI reply  
-✅ **"Generate Another Reply"** button for alternate suggestions  
-✅ Fully working frontend built with **React + Material UI**  
-✅ Backend powered by **Spring Boot** and **OpenAI API**
+**Gmail Integration** via Chrome Extension  
+**AI Reply Generation** with different tones (Professional, Friendly, Polite, etc.)  
+**Thread Summarization** – summarizes long Gmail threads in one click  
+**Tone Selector** – easily change the tone of your AI reply  
+**"Generate Another Reply"** button for alternate suggestions  
+Fully working frontend built with **React + Material UI**  
+Backend powered by **Spring Boot** and **OpenAI API**
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-### 📦 Backend
+### Backend
 - **Java + Spring Boot**
 - **Maven**
 - **Spring Web (REST APIs)**
 - **CORS Configuration**
 - **OpenAI API** for NLP generation & summarization
 
-### 💻 Frontend
+### Frontend
 - **React**
 - **Vite**
 - **Material UI (MUI)**
 - **Axios** for API calls
 
-### 🌐 Chrome Extension
+### Chrome Extension
 - **Manifest V3**
 - **Content Scripts** for DOM injection
 - **Fetch API** to connect to local backend
@@ -50,7 +50,7 @@ The primary goal of this project was to:
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 ### Backend (Spring Boot)
 1. Clone the repo
@@ -82,7 +82,7 @@ The primary goal of this project was to:
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 
 - Building RESTful APIs using **Spring Boot**
 - Handling **CORS** and API communication with React
