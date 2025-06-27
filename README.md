@@ -11,7 +11,7 @@ The primary goal of this project was to:
 - Learn how **Spring Boot** works for building scalable and RESTful backend services.
 - Understand how to connect a **React frontend** to a **Java backend** via APIs.
 - Gain hands-on experience with **Chrome Extension** development.
-- Work on a real-world project involving **NLP (Natural Language Processing)** and **AI**.
+- Work on a real-world project involving **AI**.
 
 ---
 
