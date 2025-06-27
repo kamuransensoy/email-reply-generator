@@ -75,4 +75,25 @@ public class EmailGeneratorService {
         prompt.append("\nOriginal email: \n").append(emailRequest.getEmailContent());
         return prompt.toString();
     }
+
+    public String sendPromptToGemini(String prompt) {
+        Map<String, Object> requestBody = Map.of(
+                "contents", new Object[] {
+                        Map.of("parts", new Object[] {
+                                Map.of("text", prompt)
+                        })
+                }
+        );
+
+        String response = webClient.post()
+                .uri(geminiApiUrl + geminiApiKey)
+                .header("Content-Type", "application/json")
+                .bodyValue(requestBody)
+                .retrieve()
+                .bodyToMono(String.class)
+                .block();
+
+        return extractResponseContent(response);
+    }
+
 }

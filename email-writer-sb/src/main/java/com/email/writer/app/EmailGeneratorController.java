@@ -17,4 +17,12 @@ public class EmailGeneratorController {
         String response = emailGeneratorService.generateEmailReply(emailRequest);
         return ResponseEntity.ok(response);
     }
+
+    @PostMapping("/summarize")
+    public ResponseEntity<String> summarizeThread(@RequestBody EmailRequest emailRequest) {
+        String summaryPrompt = "Summarize this email conversation:\n\n" + emailRequest.getEmailContent();
+        String response = emailGeneratorService.sendPromptToGemini(summaryPrompt);
+        return ResponseEntity.ok(response);
+    }
+
 }
